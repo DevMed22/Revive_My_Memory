@@ -14,10 +14,28 @@
       media="screen"
       href="{% static 'css/main.css' %}"
     />
+    <link
+    rel="stylesheet"
+    type="text/css"
+    media="screen"
+    href="{% static 'css/all.css' %}"
+  />
+  <link
+  rel="stylesheet"
+  type="text/css"
+  media="screen"
+  href="{% static 'css/bootstrap.min.css' %}"
+/>
+<link
+rel="stylesheet"
+type="text/css"
+media="screen"
+href="{% static 'css/style.css' %}"
+/>
     <script src="{% static 'js/main.js' %}"></script>
   </head>
   <body>
-    <ul>
+    <!-- <ul>
       {% if user.is_authenticated %}
       <p>{{ user.name }}</p>
       {% if user.profilePic %}
@@ -31,7 +49,70 @@
       <a href="{% url 'accounts:signuppatient' %}">SignUp As Patient</a>
       <a href="{% url 'accounts:signupvolunteer' %}">SignUp As Volunteer</a>
       {% endif %}
-    </ul>
-    {% block content %} {% endblock content %}
+    </ul> -->
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+        <img src="{% static 'images/revive-my-memory-low-resolution-logo-color-on-transparent-background.png' %}" alt=""width="200px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Memo Ai</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">How it works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Chat your Memory </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Benefits.html">Solutions(Benefits)</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+                 <a class="nav-link"href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"href="#">Contact</a>
+         </li>
+         </ul>
+        <a href="login.html"><button class="ms-3 btn btn-primary p-2">Login</button></a>
+        <a href="register.html"><button class="ms-3 btn btn-danger p-2">signUp</button></a>
+          </div>
+      </div>
+    </nav>
+  <!--end navbar-->
+  {% block content %} {% endblock content %}
+<!------------------------------------------------------------------>
+
+ 
+
+  <!-- start Footer-->
+<div class="Footer w-100 bg-primary p-5">
+<p class="text-center text-light fs-4">
+  copyright&copy;2023 RVM  
+  <span>
+      <i class="fa-brands fa-facebook text-white "></i>
+      <i class="fa-brands fa-whatsapp text-warning ms-1 me-1 "></i>
+      <i class="fa-solid fa-phone-volume text-danger "></i>
+  </span>
+</p>
+</div>
+  <!--end Footer-->
+
+
+
+  <!--start About(Memo)-->
+
+  
   </body>
 </html>

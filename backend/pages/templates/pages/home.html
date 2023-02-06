@@ -1,5 +1,194 @@
 {% extends 'layout.html' %} {% block title %}
 <title>Home</title>
-{% endblock title %} {% block content %}
-<h1>Home Page</h1>
+{% endblock title %}
+
+{% block content %}
+ <!--start Home Page-->
+ <div class="Home">
+
+    <div class="content">
+      <div class="Row d-flex justify-content-between align-items-center">
+    
+          <div class="left-content col-sm-md-6">
+              <h2>Revive My Memory</h2>
+              <p>
+                  Mild Cognitive impairment (MCI)
+                  is a condition in Which people Have 
+                  More Memory Or Thinking Problems 
+                  Than Other People Their Age.
+                  The Symptoms Of MCI are not as serve
+                  As those of Alzheimer,s disease or a related dementia.
+              </p>
+              <a href="register.html"><button class="ms-3 btn btn-primary p-2">Register</button></a>
+              <a href="#" class="left-link">Learn More</a>
+          </div>
+    
+          <div class="right-content col-sm-md-4">
+              <img src="{% static 'images/18377-NRJTRR-modified.png' %}"width="400px">
+          </div>
+      </div>
+    </div>
+    </div>
+    
+    
+    
+    
+    
+    <!--second section of Home Page-->
+    <div class="container-fluid">
+      <div class="part2 p-5 mb-5">
+          <div class="row d-flex justify-content-evenly align-items-center ">
+      
+      <div class="part2-left col-md-5">
+          <img src="images/Home-part2.jpeg"class="w-100 mt-5" alt="">
+      </div>
+      
+      <div class="part2-right col-md-5">
+      <h2 class="text-center text-danger text-bold mb-4">Our Team </h2>
+      <p class="text-muted">
+          We Are Trying to assist The Mci Patient To commit to daily routine and reminding him of the important events.
+          developing new skills and volunteering to the community to end Their difficulty coming up with words.Through The MRi and pet scans,
+          We can classify whetherThe damaged Part Of The memory is MCI(Not Treatable)
+          or other(Treatable),So We can Help The Doctor To diagones The Patient efficiently.
+      </p>
+      </div>
+      
+          </div>
+      </div>
+    </div>
+    
+    <!--third part of Home Page-->
+    
+    <div class="container-fluid">
+      <h2 class="text-center">Our Technologies</h2>
+    <img src="images/Hom3-new.PNG"class="w-100" alt="">
+    </div>
+    
+    <!--Fourth Part Of Home Page-->
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-around align-items-center mt-5 mb-5">
+          <div class="card col-sm-md-6 border-info gy-5" style="width: 30rem;">
+              <h2 class="text-center">Classification Model</h2>
+              <p class="text-muted">
+                  is a machine learning Algorithm Help us
+                  To Know More About The type of data
+              </p>
+              <img src="images/new-model.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Model Details</h5>
+                  <p class="card-text">AI systems work by combining large sets of data with intelligent, iterative processing algorithms</p>
+                  <p> for more information go to <span><a href="#"class="btn btn-primary ms-2">MemoAI</a></span></p>
+              
+              </div>
+            </div>
+            <div class="card col-sm-md-6 border-info gy-5" style="width: 30rem;">
+              <h2 class="text-center">How Memory Works</h2>
+              <p class="text-muted">
+                  the bracelet uses biometric sensors that measure the wearer’s heart rate, heart rate variability
+              </p>
+              <img src="images/new-pracelete.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Breclete</h5>
+                <p class="card-text">there are some senarios for 
+                  How Breclete Works And deal with Patient
+                  </p>
+                  <p> for more information go to <span><a href="#"class="btn btn-primary ms-2">Breclete Details</a></span></p>
+              </div>
+            </div>
+      </div>
+    </div>
+    
+    <!--Fifth Part Of Home Page-->
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-around align-items-center mt-5 mb-5">
+          <div class="card col-sm-md-6 border-info gy-5" style="width: 30rem;">
+              <a href="#"class="btn btn-primary m-auto p-2
+              mt-3 mb-4">patient Name <i class="fa-solid fa-plus ms-2"></i></a>
+              <img src="images/volunter2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <p class="card-text fw-bold">Hello my name,s Adam I,m
+                      a patient of al zahaimer I need
+                      Aperson for ito interested to what I do</p>
+                  <p class="fw-bold"> You can connect Dirctly to Patient<span><a href="#"class="btn btn-primary ms-2">connect</a></span></p>
+              <span style="font-size: 25px; font-weight: bold; margin-left: 50px;">or using
+                   <span>
+    
+                  <i class="fa-brands fa-facebook text-primary "></i>
+                  <i class="fa-brands fa-whatsapp text-success ms-1 me-1 "></i>
+                  <i class="fa-solid fa-phone-volume text-danger "></i>
+              </span> 
+          </span>
+              </div>
+            </div>
+    
+            <div class="card col-sm-md-6 border-info gy-5" style="width: 30rem;">
+              <a href="#"class="btn btn-primary m-auto p-2
+              mt-3 mb-4">Doctor Name <i class="fa-solid fa-plus ms-2"></i></a>
+              <img src="images/Doctor.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <p class="card-text fw-bold">Hello my name,s Mark I,m
+                      a doctor of al zahaimer I can 
+                      Treat More than Patient</p>
+                  <p class="fw-bold"> You can connect Dirctly to Doctor<span><a href="#"class="btn btn-primary ms-2">connect</a></span></p>
+              <span style="font-size: 25px; font-weight: bold; margin-left: 50px;">or using
+                   <span>
+    
+                  <i class="fa-brands fa-facebook text-primary "></i>
+                  <i class="fa-brands fa-whatsapp text-success ms-1 me-1 "></i>
+                  <i class="fa-solid fa-phone-volume text-danger "></i>
+              </span> 
+          </span>
+              </div>
+            </div>
+    
+    <div class="row d-flex justify-content-around align-items-center mt-5 mb-5">
+      <div class="card col-sm-md-6 border-info gy-5" style="width: 30rem;">
+          <a href="#"class="btn btn-primary m-auto p-2
+          mt-3 mb-4">Volunter Name <i class="fa-solid fa-plus ms-2"></i></a>
+          <img src="images/volunter.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text fw-bold">Hello my name,s William I,m
+                  a Volunter of al zahaimer I can help
+                  patient for 8 Hours EveryDaY
+                  </p>
+              <p class="fw-bold"> You can connect Dirctly  to Me
+                  <span><a href="#"class="btn btn-primary ms-2">connect</a></span></p>
+          <span style="font-size: 25px; font-weight: bold; margin-left: 50px;">or using
+               <span>
+    
+              <i class="fa-brands fa-facebook text-primary "></i>
+              <i class="fa-brands fa-whatsapp text-success ms-1 me-1 "></i>
+              <i class="fa-solid fa-phone-volume text-danger "></i>
+          </span> 
+      </span>
+          </div>
+        </div>
+    
+        <div class="card col-sm-md-6 border-info gy-5" style="width: 30rem;">
+          <a href="#"class="btn btn-primary m-auto p-2
+          mt-3 mb-4">Health Center<i class="fa-solid fa-plus ms-2"></i></a>
+          <img src="images/HealthCenter.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <p class="card-text fw-bold">Hello We Are A health Center For
+                  Alzahimar disease You Can search for
+                  our Adrees To reserve ..
+                  </p>
+              <p class="fw-bold"> You can connect Dirctly To Us<span><a href="#"class="btn btn-primary ms-2">connect</a></span></p>
+          <span style="font-size: 25px; font-weight: bold; margin-left: 50px;">or using
+               <span>
+    
+              <i class="fa-brands fa-facebook text-primary "></i>
+              <i class="fa-brands fa-whatsapp text-success ms-1 me-1 "></i>
+              <i class="fa-solid fa-phone-volume text-danger "></i>
+          </span> 
+      </span>
+          </div>
+        </div>
+    
+    </div>
+          
+    
+      </div>
+    </div>
+      <!--end Home Page-->
 {% endblock content %}

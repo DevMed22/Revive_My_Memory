@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Create Account</h1>
+        <p class="link">Already have an account? <a href="register.html">Sign in</a></p>
+        <form id="signUp">
+            <div class="form-group name-input-group">
+                <input type="text" placeholder="Name"class="nameValue form-control bg-transparent "required>
+                <p class="d-none text-danger" id="errorName">include at least 3 letters starting with capital, second name is optional</p>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email"class="emailValue form-control bg-transparent "required>
+                <p class="d-none text-danger"id="errorEmail">name@example.com </p>
+            </div>
+            <div class="form-group passInput">
+                <input type="password" placeholder="Password"class="passwordValue form-control bg-transparent"required>
+                <i class="fa-solid fa-eye" onclick="toggleType(this)"></i>
+                <p class="d-none text-danger" id="errorPassword">you must strenth your password, from 5 to 15 characters</p>
+            </div>
+            <div class="form-group passInput">
+                <input type="password" placeholder="Confirm Password"required>
+                <i class="fa-solid fa-eye" onclick="toggleType(this)"></i>
+            </div>
+            <p class="text-danger d-none mb-0" id="alreadyExist">
+                this account is exist ! Try another one.
+              </p>
+              <div class="form-group passInput">
+                <input type="number" placeholder="enter your Id"required>
+                <!-- <i class="fa-solid fa-eye" onclick="toggleType(this)"></i> -->
+                <i class="fa-duotone fa-id-card"onclick="toggleType(this)" ></i>
+            </div>
+            <div class="form-group">
+                <p style="    margin-top: 15px;
+                margin-right: 10px; font-weight: bold;">Gender</p>
+            <input type="radio" id="Male" name="Gender" value="Male"style="width:10%;"required>
+  <label for="Male">Male</label><br>
+  <input type="radio" id="Female" name="Gender" value="Female"style="width:10%;"required>
+  <label for="Female">Female</label><br>
+            </div>
+
+            <div class="form-group passInput">
+                <input type="datetime-local" placeholder="enter your birthdate"required>
+                <!-- <i class="fa-solid fa-eye" onclick="toggleType(this)"></i> -->
+                <i class="fa-duotone fa-id-card"onclick="toggleType(this)" ></i>
+            </div>
+            <div class="form-group passInput">
+                <input type="text" placeholder="enter your Address"required>
+                <!-- <i class="fa-solid fa-eye" onclick="toggleType(this)"></i> -->
+                <i class="fa-duotone fa-id-card"onclick="toggleType(this)" ></i>
+            </div>
+           
+            <div class="form-group">
+                <p style="    margin-top: 15px;
+                margin-right: 10px; font-weight: bold;">Status</p>
+            <input type="radio" id="single" name="Status" value="Single"style="width:10%;"required>
+  <label for="Single">Single</label><br>
+  <input type="radio" id="Married" name="Status" value="Married"style="width:10%;"required>
+  <label for="Married">Married</label><br>
+  <input type="radio" id="difforced" name="Status" value="difforced"style="width:10%;"required>
+  <label for="difforced">difforced</label><br>
+            </div>
+
+            <div class="form-group ">
+                  <label for="Mri"style="
+                
+    font-size: 22px;
+    margin-top: -20px;
+    font-weight: bold;
+
+                ">MRI</label><br>
+                <input style="background-color: transparent;" type="file"id="Mri" placeholder="Upload your MRi"required>
+                <!-- <i class="fa-solid fa-eye" onclick="toggleType(this)"></i> -->
+                <i class="fa-duotone fa-id-card"onclick="toggleType(this)" ></i>
+            </div>
+              <!--  -->
+              
+                  <p class="text-danger d-none mb-0" id="tryAgain">signUp failed ! Try again</p>
+            <button type="submit" class="submitBtn"id="subBtn">Sign Up <i class="fa-solid fa-arrow-right"></i></button>
+        </form>
+        <p class="terms-services">
+            <input class="input" id="terms-services" type="checkbox" required/>
+            <label class="checkbox" for="terms-services"><span>
+                    <svg width="12px" height="10px">
+                        <use xlink:href="#check"></use>
+                    </svg></span><span>I have read and agree to the Terms of Service</span></label>
+            <!--SVG Sprites-->
+            <svg class="inline-svg">
+                <symbol id="check" viewbox="0 0 12 10">
+                    <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                </symbol>
+            </svg>
+        </p>
+    </div>
+    <script src="js/reg.js"></script>
+</body>
+</html>

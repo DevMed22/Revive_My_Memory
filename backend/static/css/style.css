@@ -1,0 +1,121 @@
+/*start navbar*/
+.navbar{
+    /* background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #00042859); */
+    background-color: rgb(73 54 199);
+}
+.nav-link,.nav-link a:active{
+    color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #FFF;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: red;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: "";
+    width: 0px;
+    height: 3px;
+    background-color: rgb(187, 16, 16);
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    transition: width 1s;
+}
+.nav-link:hover::after{
+    width: 70%;
+}
+a.nav-link:hover{
+    color: #FFF;
+}
+/*End navbar*/
+
+
+
+
+
+
+/*start Home Page*/
+.Home{
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+}
+.content{
+padding: 50px;
+/* display: flex;
+justify-content: space-between;
+align-items: center; */
+/* margin: 50px; */
+height: 100vh;
+}
+.left-content{
+    width: 500px;
+    height: 400px;
+    padding: 50px;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 31px;
+    background-color: rgb(73 54 199);
+    color: #FFF;
+    overflow: hidden;
+}
+.left-content p{
+    margin-bottom: 40px;
+    line-height: 25px;
+    width: 100%;
+}
+.left-link{
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 50px;
+}
+a.left-link:hover{
+    color: #FFF;
+}
+.right-content img{
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-timing-function: ease-in-out;
+}
+@keyframes example {
+    0%   {width: 400px;}
+    25%  {width: 450px;}
+    50%  {width: 500px;}
+    100% {width: 400px;}
+  }
+/*home Part2*/
+
+.part2-right p{
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+/*Home-part-3*/
+
+
+
+/*Home-Part-4*/
+
+
+
+
+/*Home-Part-5*/
+
+
+
+
+/*end Home Page*/
+
