@@ -72,7 +72,7 @@ export default class Team extends Component {
     </div>
   </div> */}
   <div class="responsive-container-block container">
-  <p class="text-blk team-head-text">
+  <p class="text-primary team-head-text">
     Our Team
   </p>
   <div className="responsive-container-block">
@@ -93,9 +93,9 @@ Ahmed Tarek
      <p><i class="fa-solid fa-check text-success me-2"></i>Mentor with GSSOC'22 </p>
       </p>
       <div className="social-icons text-center">
-      <i class="fa-solid fa-file text-primary me-2">
+      {/* <i class="fa-solid fa-file text-primary me-2">
       <a className='text-decoration-none text-muted' href="https://drive.google.com/file/d/1VHZ885xqaex1BQ7avFit8Ysf2K6ZE3lD/view?usp=sharing">Resume</a>
-        </i> 
+        </i>  */}
      <i class="fa-brands fa-linkedin me-2 text-primary">
      <a className='text-decoration-none text-muted' href="https://www.linkedin.com/in/ahmed-tarek-4135251b3/">Linkedin</a>
      </i>
@@ -126,9 +126,9 @@ Ahmed Tarek
       <i class="fa-solid fa-check text-success me-1"></i> internship at SBOL Industrial 
       </p>
       <div className="social-icons text-center mt-2">
-      <i class="fa-solid fa-file text-primary me-2">
+      {/* <i class="fa-solid fa-file text-primary me-2">
       <a className='text-decoration-none text-muted' href="https://drive.google.com/file/d/1Y1dAbrrhQeUaI_ljJgdwdS4WcbfX7kg3/view?usp=sharing">Resume</a>
-        </i> 
+        </i>  */}
      <i class="fa-brands fa-linkedin me-2 text-primary">
      <a className='text-decoration-none text-muted' href="https://www.linkedin.com/in/omarelsherif010/">Linkedin</a>
      </i>
@@ -159,9 +159,9 @@ Ahmed Tarek
       <i class="fa-solid fa-check text-success me-1"></i>Teach at is Department
       </p>
       <div className="social-icons text-center mt-2">
-      <i class="fa-brands fa-telegram text-primary">
+      {/* <i class="fa-brands fa-telegram text-primary">
       <a className='text-decoration-none text-muted' href="https://t.me/sweidan2020">Telegram</a>
-        </i> 
+        </i>  */}
     
       <i class="fa-brands fa-facebook text-primary ms-4 ">
       <a className='text-decoration-none text-muted' href="https://www.facebook.com/sara.sweidan.98?mibextid=ZbWKwL">Facebook</a>
@@ -196,9 +196,9 @@ Ahmed Tarek
     </a>
       </p>
       <div className="social-icons text-center mt-2">
-      <i class="fa-solid fa-file text-primary me-2">
+      {/* <i class="fa-solid fa-file text-primary me-2">
       <a className='text-decoration-none text-muted' href="https://drive.google.com/file/d/146UF9HILYE_E8gl9NjAcQIRGzeD84BAm/view?usp=sharing">Resume</a>
-        </i> 
+        </i>  */}
      <i class="fa-brands fa-linkedin me-2 text-primary">
      <a className='text-decoration-none text-muted' href="https://www.linkedin.com/in/muhammed-tabana-67953319a/">Linkedin</a>
      </i>
@@ -229,12 +229,12 @@ Ahmed Tarek
       <i class="fa-solid fa-file text-primary me-2">
       <a className='text-decoration-none text-muted' href="https://www.facebook.com/AbdulWahab.Almeskekawy?mibextid=ZbWKwL">Facebook</a>
         </i> 
-     <i class="fa-brands fa-linkedin me-2 text-primary">
+     {/* <i class="fa-brands fa-linkedin me-2 text-primary">
      <a className='text-decoration-none text-muted' href="https://www.linkedin.com/in/muhammed-tabana-67953319a/">Linkedin</a>
      </i>
       <i class="fa-brands fa-github text-primary ">
       <a className='text-decoration-none text-muted' href="https://github.com/tabana1">GitHub</a>
-      </i>
+      </i> */}
       </div>
     </div>
   </div>
@@ -265,9 +265,9 @@ Ahmed Tarek
     </a>
       </p>
       <div className="social-icons text-center mt-2">
-      <i class="fa-solid fa-file text-primary me-2">
+      {/* <i class="fa-solid fa-file text-primary me-2">
       <a className='text-decoration-none text-muted' href="https://drive.google.com/file/d/1Uoy2ec2mJyTysKJuwCDAtjbs005dCQXO/view?usp=sharing">Resume</a>
-        </i> 
+        </i>  */}
      <i class="fa-brands fa-linkedin me-2 text-primary">
      <a className='text-decoration-none text-muted' href="https://www.linkedin.com/in/amr-atif-3b798a209/">Linkedin</a>
      </i>
@@ -303,9 +303,9 @@ Ahmed Tarek
       </p>
      
       <div className="social-icons text-center mt-2">
-      <i class="fa-solid fa-file text-primary me-2">
+      {/* <i class="fa-solid fa-file text-primary me-2">
       <a className='text-decoration-none text-muted' href="https://drive.google.com/file/d/1qKlO04OhFxPfYvfH8HYESmIJ34AZvAIt/view?usp=sharing">Resume</a>
-        </i> 
+        </i>  */}
      <i class="fa-brands fa-linkedin me-2 text-primary">
      <a className='text-decoration-none text-muted' href="https://www.linkedin.com/in/esmael-mosaad-758a28247/d-tarek-4135251b3/">Linkedin</a>
      </i>
@@ -342,9 +342,9 @@ Ahmed Tarek
     </a>
       </p>
       <div className="social-icons text-center mt-2">
-      <i class="fa-solid fa-file text-primary me-2">
+      {/* <i class="fa-solid fa-file text-primary me-2">
       <a className='text-decoration-none text-muted' href="https://drive.google.com/file/d/1n_jAdriSng2OsJsA1HK0LOV6__xQFFQy/view?usp=sharing">Resume</a>
-        </i> 
+        </i>  */}
      <i class="fa-brands fa-linkedin me-2 text-primary">
      <a className='text-decoration-none text-muted' href="https://www.linkedin.com/in/anas-osama-4245151a5/">Linkedin</a>
      </i>
