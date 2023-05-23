@@ -33,6 +33,7 @@ import pict4 from '../../images/Picture4.png'
 import Picture5 from '../../images/Picture5.png'
 import lastModel from '../../images/lastmodel4 (2).jpg'
 import lastprec from '../../images/lastprec2 (1).jpg'
+import TeamN from '../../images/TeamN3.jpg'
 export default class Home extends Component {
   render() {
     return (
@@ -95,14 +96,14 @@ Memory Recovery is the goal we work to protect patients<br></br>
     <div className='container'>
     <div className='row d-flex justify-content-between'>
     <div className='left-part2 col-md-6'>
-<img src={newlog}className='me-5 w-75 mt-5'height="320px"></img>
+      <img src={newlog} alt="" className='mt-5 w-75'/>
     </div>
     <div className='right-part2 col-md-6 '>
-      <h2 className='text-primary mb-2 mt-5'>Revive My Memory</h2>
-      <p className='mb-2 mt-3 p-part2 text-muted'>
+      <h2 className='text-primary mb-2 ms-3'>Revive My Memory</h2>
+      <p className='mb-2 mt-3 p-part2 text-muted ms-3'>
       Mild cognitive impairment (MCI) is the stage between<br></br> the expected decline in memory and thinking that happens<br></br> with age and the more serious decline of dementia.<br></br> MCI may include problems with memory, language<br></br>People with MCI may be aware that their memory<br></br> or mental function has "slipped."
       </p>
-      <button className='btn btn-primary me-3 mt-3'>Register</button>
+      <button className='btn btn-primary me-3 mt-3 ms-3'>Register</button>
       <a href='https://www.mayoclinic.org/diseases-conditions/alzheimers-disease/symptoms-causes/syc-20350447'>
       <button className='btn btn-primary me-3 mt-3'>Learn More</button>
 
@@ -119,7 +120,7 @@ Memory Recovery is the goal we work to protect patients<br></br>
     <div className='row d-flex justify-content-evenly align-items-center'>
 <h2 className='text-center mb-5 fw-bold text-primary'>Our Team</h2>
       <div className='left-part3 col-md-6'>
-        <img src={Homepage2}></img>
+      <img src={TeamN}className='me-5 w-100 mt-5 'height="500px"></img>
       </div>
 
       <div className='right-part3 col-md-6'>
@@ -147,7 +148,7 @@ Memory Recovery is the goal we work to protect patients<br></br>
 <img src={pic11} className="reactp ms-5 mb-5 mt-5 "id='flutter'></img>
   </div>
   <div className='part2 col-md-4'>
-  <img src={pic1} className="w-75"id='Github'id='flutter'></img>
+  <img src={pic1} className="w-75"id='Github'></img>
   </div>
   
 
