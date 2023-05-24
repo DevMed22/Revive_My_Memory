@@ -1381,3 +1381,561 @@ h2{
 }
 
 /*end Contact us page*/
+
+/*start solution page*/
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.anim-ul{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    animation: slideIn 0.5s ease-in-out forwards;
+
+}
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(-50%);
+    }
+  }
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+li:hover {
+  font-weight: bold;
+  font-size: 22px;
+  transition: all 0.2s ease-in-out;
+}
+li a {
+  text-decoration: none;
+}
+.patient-p{
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+.animated-image {
+  animation-name: slide-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/*end solution page*/
+
+/*start doctor section*/
+header {
+	background-color: #6c6ade;
+	color: #fff;
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header h1 {
+	font-size: 2rem;
+	margin: 0;
+}
+
+nav {
+	display: none;
+  margin: auto;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 1rem;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	max-width: 800px;
+	margin: 2rem auto;
+	padding: 1rem;
+	background-color: #fff;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+	margin-bottom: 2rem;
+}
+
+section h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+section p {
+	margin-bottom: 0.5rem;
+}
+
+section ul {
+	margin-left: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+section ul li {
+	margin-bottom: 0.3rem;
+}
+
+@media only screen and (min-width: 768px) {
+	header {
+		padding: 1rem 2rem;
+	}
+	nav {
+		display: block;
+	}
+	.menu-icon {
+		display: none;
+	}
+	nav ul {
+		display: flex;
+		align-items: center;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	main {
+		padding: 2rem;
+	}
+	section {
+		padding: 1rem;
+	}
+	section ul {
+		margin-left: 2rem;
+		margin-bottom: 1rem;
+	}
+}
+main{
+  background-color: #9c9ce140;
+}
+/*End Doctor Section*/
+
+/*Start volunter section*/
+
+/* .carousel-item {
+  height: 100%;
+}
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.carousel-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.carousel-text h2 {
+  margin-bottom: 1rem;
+} */
+.carousel-container {
+  margin: 0 auto; /* center the container horizontally */
+  max-width: 800px; /* set the maximum width of the container */
+}
+/* .carousel-control-prev-icon svg,
+.carousel-control-next-icon svg {
+  fill: rgb(197, 9, 9);
+} */
+
+/*start donation section*/
+#alzheimers-donation {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+#alzheimers-donation h2 {
+  margin-top: 0;
+  animation: pulse 1s infinite alternate;
+}
+
+#alzheimers-donation h3 {
+  margin-top: 20px;
+}
+
+#alzheimers-donation h4 {
+  margin-top: 10px;
+}
+
+#alzheimers-donation ol {
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+#alzheimers-donation li {
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+#alzheimers-donation li.fade-in {
+  animation: fade-in 1s ease forwards;
+}
+
+#alzheimers-donation a {
+  color: #0077cc;
+  text-decoration: none;
+  border-bottom: 1px dotted #0077cc;
+}
+
+#alzheimers-donation a:hover {
+  border-bottom-style: solid;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#alzheimers-donation {
+  position: relative;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* #alzheimers-donation img {
+  position: absolute;
+  top: 200px;
+  left: 55%;
+  transform: translateX(-50%);
+  animation: pulse 5s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+} */
+/*end donation section*/
+
+/* start contributers section */
+.contributors {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 0 0 calc(33.33% - 20px);
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+  .col {
+    flex: 0 0 100%;
+  }
+}
+
+.category-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  height: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(229, 109, 29, 0.604);
+  transition: box-shadow 0.3s ease;
+  transform: translateY(-5px);
+}
+
+.card-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/*contributer Form*/
+
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 48px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: white;
+}
+
+.formbold-steps {
+  padding-bottom: 18px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #DDE3EC;
+}
+.formbold-steps ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+.formbold-steps li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #536387;
+}
+.formbold-steps li span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DDE3EC;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #536387;
+}
+.formbold-steps li.active {
+  color: #07074D;;
+}
+.formbold-steps li.active span {
+  background: #6A64F1;
+  color: #FFFFFF;
+}
+
+.formbold-input-flex {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 22px;
+}
+.formbold-input-flex > div {
+  width: 50%;
+}
+.formbold-form-input {
+  width: 100%;
+  padding: 13px 22px;
+  border-radius: 5px;
+  border: 1px solid #DDE3EC;
+  background: #FFFFFF;
+  font-weight: 500;
+  font-size: 16px;
+  color: #536387;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input:focus {
+  border-color: #6a64f1;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+.formbold-form-label {
+  color: #07074D;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.formbold-form-confirm {
+  border-bottom: 1px solid #DDE3EC;
+  padding-bottom: 35px;
+}
+.formbold-form-confirm p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #536387;
+  margin-bottom: 22px;
+  width: 75%;
+}
+.formbold-form-confirm > div {
+  display: flex;
+  gap: 15px;
+}
+
+.formbold-confirm-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #FFFFFF;
+  border: 0.5px solid #DDE3EC;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #536387;
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: all .3s ease-in-out;
+}
+.formbold-confirm-btn {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+.formbold-confirm-btn.active {
+  background: #6A64F1;
+  color: #FFFFFF;
+}
+
+.formbold-form-step-1,
+.formbold-form-step-2,
+.formbold-form-step-3 {
+  display: none;
+}
+.formbold-form-step-1.active,
+.formbold-form-step-2.active,
+.formbold-form-step-3.active {
+  display: block;
+}
+
+.formbold-form-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
+  margin-top: 25px;
+}
+.formbold-back-btn {
+  cursor: pointer;
+  background: #FFFFFF;
+  border: none;
+  color: #07074D;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: none;
+}
+.formbold-back-btn.active {
+  display: block;
+}
+.formbold-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: none;
+  font-weight: 500;
+  background-color: #6A64F1;
+  color: white;
+  cursor: pointer;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+}
+/*end contributer Form*/
+/* end contributers section */
