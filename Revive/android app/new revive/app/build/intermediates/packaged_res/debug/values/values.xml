@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="buttons">#0000A5</color>
+    <color name="primary">#010145</color>
+    <color name="purple_200">#FF3700B3</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Register_your_email">Enter your Email</string>
+    <string name="add_note">Add New Task</string>
+    <string name="app_name">new revive</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="email_login">Enter Your User Name</string>
+    <string name="enter_a_relative_name">Enter a relative name</string>
+    <string name="enter_a_relative_phone">Enter a relative Phone</string>
+    <string name="enter_a_username">Enter a unique username</string>
+    <string name="enter_your_birthday">Enter your birthday</string>
+    <string name="forget_pasword">Forget pasword?</string>
+    <string name="full_name">Enter your full name</string>
+    <string name="greetingMessage">Hello Anas</string>
+    <string name="homeScreenTask">my daughter wedding</string>
+    <string name="i_already_have_an_account">I already have an account</string>
+    <string name="i_don_t_have_account_register">I don\'t have account Register</string>
+    <string name="login_title">login to app</string>
+    <string name="password_login">Enter your password</string>
+    <string name="registe_your_password_again">Confirm Your Password</string>
+    <string name="register_btn_rgisterScree">Register</string>
+    <string name="register_your_password">Enter your Password</string>
+    <style name="ButtonWhite">
+        <item name="android:background">#0000A5</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="CustomDatePickerDialog" parent="ThemeOverlay.AppCompat.Dialog">
+        
+        <item name="colorAccent">#0000A5</item>
+        
+        <item name="android:textColorPrimaryInverse">#0000A5</item>
+        
+        <item name="android:windowBackground">#0000A5</item>
+        
+        <item name="android:colorControlActivated">#0000A5</item>
+        
+        <item name="android:textColorPrimary">#0000A5</item>
+        
+        <item name="android:textColorSecondary">#0000A5</item>
+        
+        <item name="android:textColor">#0000A5</item>
+    </style>
+    <style name="SubTitle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="Theme.NewRevive" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">#0000A5</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">#0000A5</item>
+        <item name="colorSecondaryVariant">#0000A5</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="buttonGrey">
+        <item name="background">@drawable/bg_button</item>
+        <item name="backgroundTint">#4E4D4D</item>
+        <item name="android:enabled">false</item>
+
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textlayout" parent="ThemeOverlay.Material3.AutoCompleteTextView.FilledBox">
+        <item name="android:textColorHint">#8E8D8D</item>
+        <item name="hintTextColor">#8E8D8D</item>
+        <item name="startIconTint">#0000A5</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+</resources>
