@@ -15,6 +15,7 @@ import Picture3t from '../../images/Picture3t.png'
 import Picture1t from '../../images/Picture1t.png'
 import Picture4t from '../../images/Picture4t.png'
 export default class Team extends Component {
+  
   render() {
     return (
   <>

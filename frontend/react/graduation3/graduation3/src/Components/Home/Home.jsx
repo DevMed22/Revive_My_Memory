@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import 'animate.css/animate.min.css';
+import 'animate.css/animate.min.css';
 // import logo from '../../images/logo.jpg'
 // import Homepage3 from '../../images/Home page 1.png'
 // import Homepage1 from '../../images/Home page 2.jpg'
@@ -33,6 +35,14 @@ import pict4 from '../../images/Picture4.png'
 import Picture5 from '../../images/Picture5.png'
 import lastModel from '../../images/lastmodel4 (2).jpg'
 import lastprec from '../../images/lastprec2 (1).jpg'
+import Picture5t from '../../images/Picture5t.png'
+import Picture7t from '../../images/Picture7t.png'
+import Picture8 from '../../images/Picture8.tpng.png'
+import Picture2t from '../../images/Picture2t.png'
+import Picture10t from '../../images/Picture10t.png'
+import Picture3t from '../../images/Picture3t.png'
+import Picture1t from '../../images/Picture1t.png'
+import Picture4t from '../../images/Picture4t.png'
 import TeamN from '../../images/TeamN3.jpg'
 export default class Home extends Component {
   render() {
@@ -95,7 +105,7 @@ Memory Recovery is the goal we work to protect patients<br></br>
    <div className='Home-part2 mt-5 mb-5'>
     <div className='container'>
     <div className='row d-flex justify-content-between'>
-    <div className='left-part2 col-md-6'>
+    <div className='left-part2 col-md-6 newlog'>
       <img src={newlog} alt="" className='mt-5 w-75'/>
     </div>
     <div className='right-part2 col-md-6 '>
@@ -120,7 +130,17 @@ Memory Recovery is the goal we work to protect patients<br></br>
     <div className='row d-flex justify-content-evenly align-items-center'>
 <h2 className='text-center mb-5 fw-bold text-primary'>Our Team</h2>
       <div className='left-part3 col-md-6'>
-      <img src={TeamN}className='me-5 w-100 mt-5 'height="500px"></img>
+      {/* <img src={TeamN}className='me-5 w-100 mt-5 'height="500px"></img> */}
+      <div>
+      <img className="team-member-image w-25 animate__animated animate__fadeIn " src={Picture5t} />
+      <img className="team-member-image w-25 animate__animated animate__fadeIn" src={Picture7t} />
+      <img className="team-member-image w-25 animate__animated animate__fadeIn" src={Picture1t} />
+      </div>
+      <div>
+      <img className="team-member-image w-25 animate__animated animate__fadeIn" src={Picture2t} />
+      <img className="team-member-image w-25 animate__animated animate__fadeIn" src={Picture4t} />
+      <img className="team-member-image w-25 animate__animated animate__fadeIn" src={Picture3t} />
+      </div>
       </div>
 
       <div className='right-part3 col-md-6'>
