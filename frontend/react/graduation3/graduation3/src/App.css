@@ -47,14 +47,79 @@ box-sizing: border-box;
 height: 100px;
 }
 
+#button {
+  outline: none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius: 40px;
+  background: #fff;
+  border: 2px solid green;
+  color: green;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+#button:hover {
+  color: white;
+  background: green;
+}
+button:active {
+  letter-spacing: 2px;
+}
+#button:after {
+  content: "SUBMIT";
+}
+
+.onclic {
+  width: 40px;
+  border-color: gray;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: green;
+  animation: rotating 2s 0.25s linear infinite;
+}
+.onclic:after {
+  content: "";
+}
+.onclic:hover {
+  color: green;
+  background: white;
+}
+
+.validate {
+  font-size: 13px;
+  color: white;
+  background: green;
+}
+.validate:after {
+  font-family: "FontAwesome";
+  content: "\f00c";
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 /*End navbar*/
 /*Home containg=ing nav*/
 .Home{
-  background: rgb(2,0,36);
+  /* background: rgb(2,0,36);
 background: linear-gradient(317deg, rgba(2,0,36,0.7170517865349264) 0%, rgba(74,74,185,0.9047268565629377) 41%, rgba(192,223,230,0) 46%);
-margin-top: -85px;
+margin-top: -85px; */
 }
-
+.content{
+  background-image:url('../../graduation3//src/images/svg.jpg');
+background-position: center center;
+background-attachment: fixed;
+}
 /* .Home .left-content h1::after{
   content: "";
   animation: move 2s infinite;
@@ -80,6 +145,22 @@ margin-top: -85px;
   }
 } */
 
+
+
+/*Home part2*/
+.Home-part2{
+  background-color: #EEE;
+  padding: 30px;
+}
+/*end Home part2*/
+
+/*Home last part*/
+.last-part{
+  background-color: #EEE;
+  padding: 30px;
+}
+
+/*end Home last part*/
 /*Team section in Home page*/
 
 /*test js*/
@@ -473,8 +554,19 @@ filter: grayscale(0);
   flex-direction: column;
   margin-top: 400px;
   bottom: 0;
+  animation: color-change 5s ease-in-out infinite alternate;
 }
-
+@keyframes color-change {
+  0% {
+    background-color: #3586ff;
+  }
+  50% {
+    background-color: #ff5733;
+  }
+  100% {
+    background-color: #3586ff;
+  }
+}
 .social-icon,
 .menu {
   position: relative;
@@ -2137,3 +2229,134 @@ main{
 }
 /*end contributer Form*/
 /* end contributers section */
+
+/* start chat Memory page*/
+.Chatmemory{
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e8cbc0, #465bb9);
+  min-height: 100vh;
+  margin-top: 100px;
+}
+.social-link-chat{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+.social-link-chat:hover ,.social-link-chat:focus{
+  background-color: #0077cc;
+  text-decoration: none;
+  color: #555;
+}
+.text-anim{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  perspective: 800px;
+  min-width: 320px;
+  margin-top: 4em;
+}
+.text-anim span{
+  display: inline-block;
+  color: #c33f31;
+  font-size: 4em;
+  transform-origin: 50% 70%;
+}
+.text-anim span:nth-child(2n) {
+  color: #0077cc;
+}
+
+.text-anim span:nth-child(1) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .2s both;
+}
+
+.text-anim span:nth-child(2) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55).4s both;
+}
+
+.text-anim span:nth-child(3) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55).6s both;
+}
+
+.text-anim span:nth-child(4) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) .8s both;
+}
+
+.text-anim span:nth-child(5) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1s both;
+  padding: 0 20px;
+  display: block;
+}
+
+.text-anim span:nth-child(6) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.2s both;
+}
+
+.text-anim  span:nth-child(7) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.4s both;
+}
+
+.text-anim  span:nth-child(8) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.6s both;
+}
+
+.text-anim span:nth-child(9) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.6s both;
+}
+
+.text-anim span:nth-child(10) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 1.8s both;
+}
+
+.text-anim span:nth-child(11) {
+  animation: flipUp 1s cubic-bezier(0.68, -0.55, 0.26, 1.55) 2s both;
+}
+
+@keyframes flipUp {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
+
+
+/* RESPONSIVE STUFF */
+
+@media screen and (min-width: 400px) {
+  .text-anim span {
+    font-size: 4em;
+  }
+  .text-anim span:nth-child(5) {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .text-anim span {
+    font-size: 5em;
+  }
+  .text-anim span:nth-child(5) {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 916px) {
+  .text-anim span {
+    font-size: 6.2em;
+  }
+  .text-anim span:nth-child(5) {
+    display: inline-block;
+    margin: 0;
+    
+  }
+}
+/* end chat Memory pGE*/
