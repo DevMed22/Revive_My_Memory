@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">new revive</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Login</string>
+    <string name="login_title">login to app</string>
+    <string name="email_login">Enter Your Email</string>
+    <string name="password_login">Enter your password</string>
+    <string name="forget_pasword">Forget pasword?</string>
+    <string name="i_don_t_have_account_register">I don\'t have account Register</string>
+    <string name="full_name">Enter your full name</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="Register_your_email">Enter your Email</string>
+    <string name="register_your_password">Enter your Password</string>
+    <string name="registe_your_password_again">Confirm Your Password</string>
+    <string name="enter_your_birthday">Enter your birthday</string>
+    <string name="register_btn_rgisterScree">Register</string>
+    <string name="i_already_have_an_account">I already have an account</string>
+    <string name="enter_a_relative_phone">Enter a relative Phone</string>
+    <string name="enter_a_relative_name">Enter a relative name</string>
+    <string name="greetingMessage">Hello Anas</string>
+    <string name="homeScreenTask">my daughter wedding</string>
+    <string name="add_note">Add New Task</string>
+
+</resources>
