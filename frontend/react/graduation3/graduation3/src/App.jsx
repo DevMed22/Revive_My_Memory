@@ -14,7 +14,11 @@ import Contacts from './Components/Contact/Contact'
 // import Footer from './Components/Footer/Footer';
 import Masterlayout from './Components/MasterLayout/Masterlayout';
 import NotFound from './Components/Notfound/NotFound';
-
+import Login from './Components/Login/Login'
+import PatientRegister from './Components/DoctortRegister/DoctorRegister'
+import Doctorregister from './Components/Patientregister/Patientregister'
+import Volunterregister from './Components/Volunterregister/Volunterregister'
+import Contributerregister from './Components/Contributerregister/Contributerregister'
 // import axios from 'axios';
 
 function App() {
@@ -28,6 +32,11 @@ const routes=createBrowserRouter([
   {path:'Solution',element:<Solution/>},
   {path:'Team',element:<Team/>},
   {path:'Contacts',element:<Contacts/>},
+  {path:'Login',element:<Login/>},
+  {path:'PatientRegister',element:<PatientRegister/>},
+  {path:'Doctorregister',element:<Doctorregister/>},
+  {path:'Volunterregister',element:<Volunterregister/>},
+  {path:'Contributerregister',element:<Contributerregister/>},
 ]}  
 ])
   {/*end routing */}
