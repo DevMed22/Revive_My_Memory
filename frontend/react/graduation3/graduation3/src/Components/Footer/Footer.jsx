@@ -50,13 +50,13 @@ import React, { Component } from 'react'
 export default function Footer() {
   return (
  <>
- <footer className="footer">
-  <div className="waves">
+ <footer className="footer ">
+  {/* <div className="waves">
     <div className="wave" id="wave1" />
     <div className="wave" id="wave2" />
     <div className="wave" id="wave3" />
     <div className="wave" id="wave4" />
-  </div>
+  </div> */}
   <ul className="social-icon">
     <li className="social-icon__item"><a className="social-icon__link" href="#">
     <i className="fa-brands fa-facebook text-white icon" />
