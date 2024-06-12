@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_6_pro" />
+        <device id="Nexus 6" />
+        <option name="nonWearDeviceLastStateName" value="Portrait" />
+      </config>
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d8f081f4-30b2-4275-88a7-bf62e6d5f1e7" name="Changes" comment="update android interface">
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/androidTest/java/com/example/revivemymemory/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/java/com/example/revivemymemory/models/MyConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/java/com/example/revivemymemory/models/MyRequest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/java/com/example/revivemymemory/ui/HomeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/java/com/example/revivemymemory/ui/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/java/com/example/revivemymemory/ui/REgisterActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/applogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/banner_bg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/baseline_account_circle_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/baseline_birthday.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/baseline_contact_phone_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/baseline_email_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/baseline_local_phone_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/baseline_person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/bg_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/circle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/circlebc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/cirleaccount.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/home_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/homepage_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/homepage_icon_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_access_time_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_add_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_arrow_circle_right_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_date_range_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_email_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_location_on_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_lock_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_person_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_phone_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_baseline_strikethrough_s_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/passord_icon.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/personwhite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/drawable/rounded_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-anydpi-v33/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/values/ids.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/app/src/test/java/com/example/revivemymemory/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ReviveMyMemory/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/newrevive/Activites/MyConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/newrevive/Activites/MyRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/newrevive/Activites/HomeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/newrevive/Activites/HomeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/newrevive/Activites/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/newrevive/Activites/LoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/newrevive/Activites/MyProfile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/newrevive/Activites/MyProfileActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_my_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\mhmdw\.android\avd\Pixel_6_Edited_API_30.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Data Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/build.gradle" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2MblLwfKKiVU7sHGCQ6bx0DuzS0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;E:/graduation/Revive_My_Memory/Revive/android app/new revive/app/src/main/res/drawable&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/graduation/KOVID-19-master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Dependencies&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="android.template.-523166522">
+      <recent name="com.example.newrevive.Activites" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\graduation\Revive_My_Memory\Revive\android app\new revive\app\src\main\res\drawable" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\graduation\Revive_My_Memory\Revive\android app\new revive\app\src\main\java\com\example\newrevive\Activites" />
+      <recent name="E:\graduation\Revive_My_Memory\Revive\android app\new revive\app\src\main\java\com\example\newrevive" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="com.example.newrevive.Activites" />
+      <recent name="com.example.newrevive.Activites.sampledata" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.newrevive.Activites" />
+    </key>
+    <key name="android.template.-74160901">
+      <recent name="com.example.newrevive" />
+    </key>
+    <key name="android.template.1531881917">
+      <recent name="com.example.newrevive.Activites" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="new_revive.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8f081f4-30b2-4275-88a7-bf62e6d5f1e7" name="Changes" comment="" />
+      <created>1678044111182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678044111182</updated>
+    </task>
+    <task id="LOCAL-00001" summary="update android interface">
+      <created>1678563411656</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678563411656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="b1d1e1da-70e6-47d3-9348-1e3274a52339">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/graduation/Revive_My_Memory/Revive/android app/new revive/app/src/main/res/layout" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="b1d1e1da-70e6-47d3-9348-1e3274a52339" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update android interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="update android interface" />
+  </component>
+</project>

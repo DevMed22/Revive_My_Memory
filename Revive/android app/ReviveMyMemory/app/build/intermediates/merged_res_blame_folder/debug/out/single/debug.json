@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_home_background.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\home_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_banner_bg.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\banner_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_homepage_icon.png.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\homepage_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_register.png.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\register.png"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_baseline_email_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\baseline_email_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_img.png.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\img.png"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_baseline_birthday.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\baseline_birthday.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_date_range_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_date_range_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_homepage_icon_background.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\homepage_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_access_time_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_access_time_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "com.example.revivemymemory.app-merged_res-38:/layout_activity_forget_password.xml.flat",
+        "source": "com.example.revivemymemory.app-main-40:/layout/activity_forget_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_phone_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.example.revivemymemory.app-merged_res-38:/raw_successanimation.json.flat",
+        "source": "com.example.revivemymemory.app-main-40:/raw/successanimation.json"
+    },
+    {
+        "merged": "com.example.revivemymemory.app-merged_res-38:/layout_activity_forget_successful_send.xml.flat",
+        "source": "com.example.revivemymemory.app-main-40:/layout/activity_forget_successful_send.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_bg_button.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\bg_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_circle.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.revivemymemory.app-merged_res-38:/layout_activity_register.xml.flat",
+        "source": "com.example.revivemymemory.app-main-40:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.revivemymemory.app-merged_res-38:/layout_activity_home.xml.flat",
+        "source": "com.example.revivemymemory.app-main-40:/layout/activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_personwhite.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\personwhite.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_applogo.png.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\applogo.png"
+    },
+    {
+        "merged": "com.example.revivemymemory.app-merged_res-38:/raw_repassword.json.flat",
+        "source": "com.example.revivemymemory.app-main-40:/raw/repassword.json"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_baseline_contact_phone_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\baseline_contact_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_img_1.png.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\img_1.png"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_arrow_circle_right_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_arrow_circle_right_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_cirleaccount.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\cirleaccount.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_baseline_local_phone_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\baseline_local_phone_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_lock_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_passord_icon.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\passord_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_circlebc.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\circlebc.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.revivemymemory.app-merged_res-38:/layout_activity_login.xml.flat",
+        "source": "com.example.revivemymemory.app-main-40:/layout/activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_strikethrough_s_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_strikethrough_s_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_ic_baseline_location_on_24.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\ic_baseline_location_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\drawable_img_2.png.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\drawable\\img_2.png"
+    },
+    {
+        "merged": "com.example.revivemymemory.app-merged_res-38:/raw_forgetpassword.json.flat",
+        "source": "com.example.revivemymemory.app-main-40:/raw/forgetpassword.json"
+    },
+    {
+        "merged": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-merged_res-38:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "C:\\Users\\mhmdw\\.gradle\\daemon\\7.5\\com.example.revivemymemory.app-main-40:\\mipmap-anydpi-v33\\ic_launcher.xml"
+    }
+]

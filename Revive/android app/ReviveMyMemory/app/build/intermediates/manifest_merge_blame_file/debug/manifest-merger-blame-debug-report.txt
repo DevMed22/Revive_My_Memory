@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.revivemymemory"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="27"
+8-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\mhmdw\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.revivemymemory.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\mhmdw\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\mhmdw\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.revivemymemory.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\mhmdw\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\mhmdw\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:5:5-35:19
+18        android:allowBackup="true"
+18-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\mhmdw\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:10:9-41
+26        android:supportsRtl="true"
+26-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:11:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.ReviveMyMemory" >
+28-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:12:9-52
+29        <activity
+29-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:14:9-16:40
+30            android:name="com.example.revivemymemory.ui.ForgetSuccessfulSendActivity"
+30-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:15:13-60
+31            android:exported="false" />
+31-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:16:13-37
+32        <activity
+32-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:17:9-19:40
+33            android:name="com.example.revivemymemory.ui.ForgetPasswordActivity"
+33-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:18:13-54
+34            android:exported="false" />
+34-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:19:13-37
+35        <activity
+35-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:20:9-22:40
+36            android:name="com.example.revivemymemory.ui.REgisterActivity"
+36-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:21:13-48
+37            android:exported="false" />
+37-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:22:13-37
+38        <activity
+38-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:23:9-25:40
+39            android:name="com.example.revivemymemory.ui.HomeActivity"
+39-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:24:13-44
+40            android:exported="false" />
+40-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:25:13-37
+41        <activity
+41-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:26:9-34:20
+42            android:name="com.example.revivemymemory.ui.LoginActivity"
+42-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:27:13-45
+43            android:exported="true" >
+43-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:28:13-36
+44            <intent-filter>
+44-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:29:13-33:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:30:17-69
+45-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:30:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:32:17-77
+47-->E:\graduation\Revive_My_Memory\Revive\android app\ReviveMyMemory\app\src\main\AndroidManifest.xml:32:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mhmdw\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mhmdw\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.example.revivemymemory.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mhmdw\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mhmdw\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mhmdw\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mhmdw\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mhmdw\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mhmdw\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mhmdw\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\mhmdw\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
